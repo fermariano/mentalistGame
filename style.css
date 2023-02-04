@@ -1,0 +1,75 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@700&family=Roboto:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    background-image: url(back.png)
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 45px;
+    color: #FB2576;
+    font-family: Minecraft;
+}
+
+section {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #332FD0;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.432);
+    padding: 50px;
+}
+
+#text {
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: Source Code Pro;
+    
+}
+
+#chute {
+    width: 150px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #0096FF;
+    border-color: black;
+    border-width: 3px;
+}
+
+#botao {
+    height: 25px;
+    border-radius: 8px;
+    background-color: #00D7FF;
+}
+
+#botao:hover{
+    background-color: #03b8d8;
+}
+
+#botaot {
+    height: 25px;
+    border-radius: 8px;
+    background-color: #645CBB;
+}
+
+#botaot:hover {
+    background-color: #4d4692;
+}
+
+#result {
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: Source Code Pro;
+}
+
+#tries {
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: Source Code Pro;
+}
